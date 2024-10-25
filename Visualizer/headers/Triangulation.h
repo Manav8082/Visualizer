@@ -11,4 +11,6 @@ public:
 	~Triangulation();
 	vector<double> UniqueNumbers;
 	vector<Triangle> Triangles;
+	vector<Point> uniqueVertex;
+	vector<Point> uniqueNormal;
 };
